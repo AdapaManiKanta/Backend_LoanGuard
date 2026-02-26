@@ -1,0 +1,23 @@
+artifact_path: file:C:/ManiKanta/coding/LoanGuard-MLOps/backend_py/mlruns/1/models/m-4c6866eaf2a6458bafeb23a419832a54/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.0
+model_id: m-4c6866eaf2a6458bafeb23a419832a54
+model_size_bytes: 793
+model_uuid: m-4c6866eaf2a6458bafeb23a419832a54
+prompts: null
+run_id: e65e629a949844cdb2330daaf255cdc7
+utc_time_created: '2026-02-21 22:50:29.565378'
